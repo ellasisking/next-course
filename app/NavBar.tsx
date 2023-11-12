@@ -1,8 +1,6 @@
 "use client";
-import { divide } from "lodash";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
-import React from "react";
 
 const NavBar = () => {
   const { status, data: session } = useSession();
